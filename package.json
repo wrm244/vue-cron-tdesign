@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wrm244/vue-cron-tdesign.git"
+    "url": "git+https://github.com/wrm244/vue-cron-tdesign.git"
   },
   "bugs": {
     "url": "https://github.com/wrm244/vue-cron-tdesign/issues"
