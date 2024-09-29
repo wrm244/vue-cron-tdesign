@@ -1,0 +1,60 @@
+{
+  "name": "vue-cron-tdesign",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/vue-cron-tdesign.js",
+  "module": "dist/vue-cron-tdesign.umd.cjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "package.json",
+    "README.md",
+    "dist"
+  ],
+  "author": "RiverMountain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrm244/vue-cron-tdesign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wrm244/vue-cron-tdesign/issues"
+  },
+  "description": "利用vue+tdesign设计的cron表达式前端生成组件",
+  "keywords": [
+    "vite",
+    "vue3",
+    "typescript",
+    "cron"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "build-only": "vite build",
+    "build-noEmiit": "vue-tsc --noEmit && vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.8.0",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitejs/plugin-vue-jsx": "^4.0.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "npm-run-all2": "^6.2.0",
+    "prettier": "^3.2.5",
+    "typescript": "~5.4.0",
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^4.2.2",
+    "vue-tsc": "^2.0.21"
+  }
+}
