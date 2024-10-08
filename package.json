@@ -1,7 +1,7 @@
 {
   "name": "vue-cron-tdesign",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/vue-cron-tdesign.js",
   "module": "dist/vue-cron-tdesign.umd.cjs",
